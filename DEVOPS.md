@@ -23,18 +23,34 @@ Before building or running the application, it is highly recommended to use a vi
     ```bash
     python -m venv venv
     ```
+    or
+
+    ```bash
+    conda create -n yt-dlp
+    ```
+
 2.  **Activate the environment (Windows - PowerShell):**
     ```bash
-    .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate.bat
     ```
-    *Note: If you encounter execution policy errors, you may need to run `Set-ExecutionPolicy RemoteSigned -Scope Process` first.*
-3.  **Activate the environment (Windows - Command Prompt):**
+
+    or
+
     ```bash
-    .\venv\Scripts\activate.bat
+    conda activate yt-dlp
     ```
-4.  **Deactivate the environment:**
+
+    *Note: If you encounter execution policy errors, you may need to run `Set-ExecutionPolicy RemoteSigned -Scope Process` first.*
+
+3.  **Deactivate the environment:**
     ```bash
     deactivate
+    ```
+
+    or
+
+    ```bash
+    conda deactivate
     ```
 
 **Usage:**
