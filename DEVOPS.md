@@ -11,7 +11,7 @@ To ensure you are working with the most up-to-date source code, always pull the 
 
 **Command:**
 ```bash
-git pull origin main
+git pull origin master
 ```
 
 ### 🌿 2. Setting Up the Development Environment (Virtual Environments)
